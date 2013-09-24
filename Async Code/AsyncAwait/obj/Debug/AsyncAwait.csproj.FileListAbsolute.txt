@@ -1,0 +1,5 @@
+C:\Users\MatiUB\Desktop\Async\Async\AsyncAwait\bin\Debug\AsyncAwait.dll
+C:\Users\MatiUB\Desktop\Async\Async\AsyncAwait\bin\Debug\AsyncAwait.pdb
+C:\Users\MatiUB\Desktop\Async\Async\AsyncAwait\obj\Debug\AsyncAwait.csprojResolveAssemblyReference.cache
+C:\Users\MatiUB\Desktop\Async\Async\AsyncAwait\obj\Debug\AsyncAwait.dll
+C:\Users\MatiUB\Desktop\Async\Async\AsyncAwait\obj\Debug\AsyncAwait.pdb
