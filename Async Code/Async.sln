@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Responsivenes", "Responsivenes\Responsivenes.csproj", "{A0CC1AB3-D10E-4894-980A-3946F1030D22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldModels", "OldModels\OldModels.csproj", "{C725C826-4847-4BFF-87B9-E8D70E16B569}"
@@ -10,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{4AE9A63D-267C-40DA-9968-29A4696AA96F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullCode", "FullCode\FullCode.csproj", "{BA99B93D-9C73-4B3B-8DFA-F02255C42AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuerraDeTweets", "GuerraDeTweets\GuerraDeTweets.csproj", "{43DD51B9-1C33-4ED7-BDD6-8847C56273A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{BA99B93D-9C73-4B3B-8DFA-F02255C42AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA99B93D-9C73-4B3B-8DFA-F02255C42AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA99B93D-9C73-4B3B-8DFA-F02255C42AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DD51B9-1C33-4ED7-BDD6-8847C56273A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DD51B9-1C33-4ED7-BDD6-8847C56273A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DD51B9-1C33-4ED7-BDD6-8847C56273A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DD51B9-1C33-4ED7-BDD6-8847C56273A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

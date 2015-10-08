@@ -7,3 +7,6 @@ C:\Users\MatiUB\Desktop\Async\Async\FullCode\obj\Debug\FullCode.Properties.Resou
 C:\Users\MatiUB\Desktop\Async\Async\FullCode\obj\Debug\FullCode.csproj.GenerateResource.Cache
 C:\Users\MatiUB\Desktop\Async\Async\FullCode\obj\Debug\FullCode.exe
 C:\Users\MatiUB\Desktop\Async\Async\FullCode\obj\Debug\FullCode.pdb
+C:\Users\matia\Desktop\async-master\Async Code\FullCode\bin\Debug\FullCode.exe.config
+C:\Users\matia\Desktop\async-master\Async Code\FullCode\obj\Debug\FullCode.exe
+C:\Users\matia\Desktop\async-master\Async Code\FullCode\obj\Debug\FullCode.pdb

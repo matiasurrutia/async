@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Guerra de Tweets</h1>
+    <p><a target="_blank" href="@Url.Action("Index", "Tweets")" class="btn btn-primary btn-lg">Sync</a></p>
+    <p><a target="_blank" href="@Url.Action("Tasks", "Tweets")" class="btn btn-warning btn-lg">Tasks</a></p>
+    <p><a target="_blank" href="@Url.Action("Parallel", "Tweets")" class="btn btn-success btn-lg">Parallel</a></p>
+    <p><a target="_blank" href="@Url.Action("Async", "Tweets")" class="btn btn-info btn-lg">Async</a></p>
+</div>

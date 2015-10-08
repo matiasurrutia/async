@@ -1,0 +1,42 @@
+﻿@model IEnumerable<GuerraDeTweets.Models.Tweet>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Async</title>
+</head>
+<body>
+    <h1>Modo: @ViewBag.Mode. Tiempo Total: @ViewBag.Time</h1>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ScreenName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Avatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TweetText)
+            </th>            
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ScreenName)
+            </td>
+            <td>
+                <img src="@item.Avatar"/>                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TweetText)
+            </td>            
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>
