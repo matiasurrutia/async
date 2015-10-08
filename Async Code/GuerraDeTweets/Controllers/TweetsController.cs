@@ -73,7 +73,6 @@ namespace GuerraDeTweets.Controllers
             ViewBag.Mode = "Tasks";
             var timer = new Stopwatch();
             timer.Start();
-            var list = new List<Tweet>();
             var taskList = new List<Task<TwitterStatus>>();
 
             // Magia
@@ -89,12 +88,9 @@ namespace GuerraDeTweets.Controllers
                 taskList.Add(task);
             }
 
-            Task.WhenAll(taskList);
+            Task.WaitAll(taskList.ToArray());
 
-            foreach (var task in taskList)
-            {
-                list.Add(new Tweet(task.Result));
-            }
+            var list = taskList.Select(task => new Tweet(task.Result)).ToList();
 
             // Fin Magia
 
@@ -128,12 +124,11 @@ namespace GuerraDeTweets.Controllers
             return View("Async", list);
         }
 
-        public async Task<ActionResult> Async()
+        public async Task<ActionResult> TweetsAsync()
         {
             ViewBag.Mode = "Async";
             var timer = new Stopwatch();
             timer.Start();
-            var list = new List<Tweet>();
 
             // Magia
 
@@ -144,10 +139,7 @@ namespace GuerraDeTweets.Controllers
 
             await Task.WhenAll(tasksList);
 
-            foreach (var task in tasksList)
-            {
-                list.Add(new Tweet(task.Result.Value.FirstOrDefault()));
-            }
+            var list = tasksList.Select(task => new Tweet(task.Result.Value.FirstOrDefault())).ToList();
 
             // Fin Magia
 
